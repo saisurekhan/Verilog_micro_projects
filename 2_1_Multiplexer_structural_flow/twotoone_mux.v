@@ -1,8 +1,9 @@
 `timescale 1ns / 1ps
+`default_nettype none
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
 // Engineer: 
-// 
+//
 // Create Date: 04/21/2025 01:39:44 PM
 // Design Name: 
 // Module Name: twotoone_mux------structural
@@ -21,10 +22,8 @@
 
 
 module twotoone_mux(
-    input A,
-    input B,
-    input S,
-    output Z
+    input wire A,B,S,
+    output wire Z
     );
     
    wire X,Y,S_bar;
