@@ -1,4 +1,5 @@
 `timescale 1ns / 1ps
+`default_nettype none
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
 // Engineer: 
@@ -21,10 +22,10 @@
 
 
 module twotoone_mux_behavioral(
-    input A,
-    input B,
-    input S,
-    output Z
+    input wire A,
+    input wire B,
+    input wire S,
+    output wire Z
     );
     
     wire X,Y,S_bar;
