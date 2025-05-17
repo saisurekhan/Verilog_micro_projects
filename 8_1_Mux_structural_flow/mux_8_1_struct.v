@@ -1,4 +1,5 @@
 `timescale 1ns / 1ps
+'default_nettype none
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
 // Engineer: 
@@ -21,9 +22,9 @@
 
 
 module mux_8_1_struct(
-    input S2, S1,S0,
-    input A,B,C,D,E,F,G,H,
-    output Z
+    input wire S2, S1,S0,
+    input wire A,B,C,D,E,F,G,H,
+    output wire Z
     );
     
     wire P,Q,R,S,T,U,V,W,S0_bar,S1_bar,S2_bar;
