@@ -1,4 +1,5 @@
 `timescale 1ns / 1ps
+`default_nettype none 
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
 // Engineer: 
@@ -21,18 +22,10 @@
 
 
 module mux_8_1_behavioral(
-    input S2,
-    input S1,
-    input S0,
-    input A,
-    input B,
-    input C,
-    input D,
-    input E,
-    input F,
-    input G,
-    input H,
-    output Z
+    input wire S2,S1,S0,
+    input wire A,B,C,D,
+    input wire E,F,G,H,
+    output wire Z
     );
     
     wire P,Q,R,S,T,U,V,W,S2_bar,S1_bar,S0_bar;
