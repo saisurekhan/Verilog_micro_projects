@@ -1,25 +1,6 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 05/04/2025 02:31:23 PM
-// Design Name: 
-// Module Name: decoder3_8_beh_alw_case
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
 //////////////////////////////////////////////////////////////////////////////////
-
-
 module decoder3_8_beh_alw_case(
     input en,A,B,C,
     output reg Y0,Y1,Y2,Y3,
